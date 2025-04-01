@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+    <html> 
+        <head>
+            <title>Advanced HTML</title>
+        </head>
+        <body>
+            <h2> Ordered Lists</h2>
+            <ol type="I">
+                <li>Kenya</li>
+                <li>Nigeria</li>
+                <li>Spain</li>
+                <li>United Kingdom</li>
+                <li>South Africa</li>
+            </ol>
+
+            <h2>Image</h2>
+            <img src="https://images.pexels.com/photos/23879108/pexels-photo-23879108/free-photo-of-yangtze-river-cableway-in-chongqing-city-in-china.jpeg?auto=compress&cs=tinysrgb&w=600"
+             alt="Image of yangtze-river-cableway-in-chongqing-city-in-china chongqing,China" height="400" width="380">
+            
+            <h2>Video</h2>
+            <video controls width="380" height="400">
+                <source src="nature.mp4" type="video/mp4">
+            </video>
+
+            <audio controls>
+                <source src="moonlit.mp3" type="audio/mpeg">
+            </audio>
+
+
+            <h2>HTML Tables</h2>
+            <table border="1">
+                <caption><b>Student Information</b></caption>
+                <thead>
+                    <tr>
+                        <th> Name</th>
+                        <th> Address</th>
+                        <th> Mobile</th>
+                        <th> Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Gloria Titus </td>
+                        <td>Nairobi</td>
+                        <td>1234567890</td>
+                        <td>gloriamtitus@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Gabriella Michaels</td>
+                        <td>London</td>
+                        <td>1234567890</td>
+                        <td>gabriellamichaels@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Laura Tupesio</td>
+                        <td>Narok</td>
+                        <td>1234567890</td>
+                        <td>lauratupesio@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Michael Bahati</td>
+                        <td>Nakuru</td>
+                        <td>1234567890</td>
+                        <td>michaelbahati@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Vincent Kalui</td>
+                        <td>Nairobi</td>
+                        <td>1234567890</td>
+                        <td>vincentkalui@gmail.com</td>
+                    </tr>
+                    </tbody>
+            </table>
+
+            <h2>Registration Form</h2>
+            <form action="" method"">
+                <label for="full_name"> Full Name:</label>
+                <input type="text" id="full_name" name="full_name" required placeholder="--Full name--">
+                <br><br>
+                <label for="date"> Date of Birth:</label>
+                <input type="date" id="date" name="date" required placeholder="Date of birth">
+                <br><br>
+                <label for="gender"> Gender:</label>
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="male"> Male 
+                <br><br>
+                <label for="email"> Email:</label>
+                <input type="email" id="email" name="email" required placeholder="johndoe@example.com">
+                <br><br>
+                <label for="country">Country:</label>
+                <select name="country" id="country">
+                    <option>--Select Country--</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Spain">Spain</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="South Africa">South Africa</option>
+                </select>
+                <br><br>
+                <label for="hobbies">Hobbies:</label>
+                <input type="checkbox" name="hobbies" value="sports"> Sports
+                <input type="checkbox" name="hobbies" value="music"> Music
+                <input type="checkbox" name="hobbies" value="art"> Art
+                <input type="checkbox" name="hobbies" value="travel"> Travel
+                <br><br>
+                <label for="password"> Password:</label>
+                <input type="password" name="password" minlength="8" maxlength="20" required placeholder="Password">
+                <br><br>           
+                
+
+                <button type="submit">Submit</button>
+                <button type="reset" value="Cancel/Reset"> Cancel/Reset</button>
+                <br><br>
+                <text area name="Comments" rows="5" cols="50" placeholder="Your comments here"></text area>
+              </form>
+              <!--End of Form-->
+             
+        </body>     
+    </html>
